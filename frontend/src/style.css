@@ -1,0 +1,41 @@
+body {
+  font-family: Arial;
+  background: #f5f6fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  background: #fff;
+  padding: 10px;
+  width: 33%;
+  border-radius: 8px;
+}
+
+.task {
+  background: #eef;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 6px;
+}
+
+.loading {
+  background: #fff3cd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
